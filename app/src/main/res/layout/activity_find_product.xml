@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context="com.hfad.productadviser.FindProductActivity">
+
+
+    <Spinner
+        android:id="@+id/product"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/products" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/find_product"
+        android:onClick="onClickFindProduct" />
+
+
+    <TextView
+        android:id="@+id/brands"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:text="@string/brands"
+        android:textAlignment="center" />
+
+</LinearLayout>

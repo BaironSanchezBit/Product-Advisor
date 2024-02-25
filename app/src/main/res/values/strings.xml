@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Product Adviser</string>
+    <string name="find_product">Find Product!</string>
+    <string name="brands">No Product selected</string>
+    <string-array name="products">
+        <item>Mercancías Sólidas</item>
+        <item>Productos Agrícolas</item>
+        <item>Líquidos</item>
+    </string-array>
+</resources>
+
